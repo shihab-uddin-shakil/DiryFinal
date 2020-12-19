@@ -16,7 +16,7 @@ namespace DiryFinal
         public string Importance { set; get; }
         public string EventDate { set; get; }
 
-        public byte[] Picture { set; get; }
+        public string Picture { set; get; }
 
     }
 }

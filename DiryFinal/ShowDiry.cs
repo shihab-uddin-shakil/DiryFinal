@@ -16,5 +16,15 @@ namespace DiryFinal
         {
             InitializeComponent();
         }
+
+        private void AddEvent_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ShowDiry_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

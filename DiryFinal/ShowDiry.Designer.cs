@@ -37,7 +37,7 @@
             this.EventdateTime = new System.Windows.Forms.DateTimePicker();
             this.importancecomboBox = new System.Windows.Forms.ComboBox();
             this.EventpictureBox = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddEvent = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.EventpictureBox)).BeginInit();
@@ -124,14 +124,15 @@
             this.EventpictureBox.TabIndex = 8;
             this.EventpictureBox.TabStop = false;
             // 
-            // button1
+            // AddEvent
             // 
-            this.button1.Location = new System.Drawing.Point(179, 596);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(145, 40);
-            this.button1.TabIndex = 9;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AddEvent.Location = new System.Drawing.Point(179, 596);
+            this.AddEvent.Name = "AddEvent";
+            this.AddEvent.Size = new System.Drawing.Size(145, 40);
+            this.AddEvent.TabIndex = 9;
+            this.AddEvent.Text = "Add Event";
+            this.AddEvent.UseVisualStyleBackColor = true;
+            this.AddEvent.Click += new System.EventHandler(this.AddEvent_Click);
             // 
             // panel1
             // 
@@ -157,7 +158,7 @@
             this.ClientSize = new System.Drawing.Size(1057, 685);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddEvent);
             this.Controls.Add(this.EventpictureBox);
             this.Controls.Add(this.importancecomboBox);
             this.Controls.Add(this.EventdateTime);
@@ -169,6 +170,7 @@
             this.Controls.Add(this.label1);
             this.Name = "ShowDiry";
             this.Text = "ShowDiry";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ShowDiry_FormClosing);
             ((System.ComponentModel.ISupportInitialize)(this.EventpictureBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -186,7 +188,7 @@
         private System.Windows.Forms.DateTimePicker EventdateTime;
         private System.Windows.Forms.ComboBox importancecomboBox;
         private System.Windows.Forms.PictureBox EventpictureBox;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddEvent;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label4;
     }

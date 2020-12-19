@@ -28,5 +28,10 @@ namespace DiryFinal
             else
                 MessageBox.Show("invalid username or pasword!!");
         }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
