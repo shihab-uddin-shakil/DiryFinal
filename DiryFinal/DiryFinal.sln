@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiryFinal", "DiryFinal\DiryFinal.csproj", "{70A34590-CB6F-4B12-BA4D-B39A4A12D20A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{13548E87-8557-4430-B3AA-6E2B9357B046}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70A34590-CB6F-4B12-BA4D-B39A4A12D20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70A34590-CB6F-4B12-BA4D-B39A4A12D20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70A34590-CB6F-4B12-BA4D-B39A4A12D20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70A34590-CB6F-4B12-BA4D-B39A4A12D20A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC5BAB69-82F8-4A11-8805-CDEAB588F657}
+	EndGlobalSection
+EndGlobal
